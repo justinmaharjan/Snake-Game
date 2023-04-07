@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Gameplay extends JPanel {
+    private ImageIcon titleImage;
     public Gameplay(){
 
     }
@@ -10,6 +11,8 @@ public class Gameplay extends JPanel {
         graphics.setColor(Color.white);
         graphics.drawRect(24,10,851,55);
 
+        titleImage= new ImageIcon("snaketitle.jpg");
+        titleImage.paintIcon(this,graphics,25,11);
         //Border of gameplay
         graphics.setColor(Color.white);
         graphics.drawRect(24,74,851,577);
