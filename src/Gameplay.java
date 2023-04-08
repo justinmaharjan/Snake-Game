@@ -1,12 +1,14 @@
-//import javax.swing.*;
-//import java.awt.*;
-import java.awt.Color;
-import java.awt.Graphics;
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyListener;
+//import java.awt.Color;
+//import java.awt.Graphics;
+//import javax.swing.ImageIcon;
+//import javax.swing.JPanel;
+//import javax.swing.Timer;
 
-public class Gameplay extends JPanel {
+public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int[] snakexlength = new int[750];
     private int[] snakeylength = new int[750];
     private boolean right = false;
@@ -25,7 +27,10 @@ public class Gameplay extends JPanel {
 
     private ImageIcon titleImage;
     public Gameplay(){
-
+        addKeyListener(this);
+        setFocusable(true);
+        setFocusTraversalKeys(true);
+        timer= new Timer(delay,)
     }
     public void paint(Graphics graphics){
 
