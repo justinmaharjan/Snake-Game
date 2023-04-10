@@ -4,7 +4,7 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setTitle("snake Game");
+        frame.setTitle("Snake Game");
         frame.setBounds(10,10,905,700);
         frame.setResizable(false);
         frame.setVisible(true);
