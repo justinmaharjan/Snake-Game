@@ -201,7 +201,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
                     snakeylength[i] = snakeylength[i - 1];
                 }
                 if (snakeylength[i] > 625) {
-                    snakeylength[i] = 75;    
+                    snakeylength[i] = 75;
                 }
             }
             repaint();
