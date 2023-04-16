@@ -13,7 +13,5 @@ public class Main {
 
         Gameplay gameplay= new Gameplay();
         frame.add(gameplay);
-
-
     }
 }
