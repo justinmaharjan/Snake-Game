@@ -2,7 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         JFrame frame = new JFrame();
         frame.setTitle("Snake Game");
         frame.setBounds(10,10,905,700);
